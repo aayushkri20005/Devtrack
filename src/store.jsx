@@ -42,7 +42,7 @@ export function StoreProvider({ children }) {
   }
 
   const value = {
-    problems, updateProblem, activity,
+    problems, setProblems, updateProblem, activity,
     sessions, setSessions,
     results, setResults,
     profile, setProfile,
